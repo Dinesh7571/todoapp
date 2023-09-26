@@ -75,11 +75,11 @@ function App() {
 
   return (
     <>
-      <Container maxWidth="sm">
+      <Container maxWidth="sm" >
         <div>
           <h1 className='todoName'>T O D O</h1>
         </div>
-
+<div className='MainContainer'>
         <CreateTodo
           value={text}
           onChange={handleInputChange}
@@ -107,7 +107,7 @@ function App() {
           handleCompleted={handleCompleted}
           clearComplete={handleClearCompleted}
         />
-      
+   </div>   
       </Container>
       
     </>
