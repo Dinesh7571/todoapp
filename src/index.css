@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Josefin Sans;
+  
+}
+body{
+  background-image: url('./images/bgImage.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+
+}
+@media (max-width: 768px) {
+  body {
+    background-size: 100% 70%;
+  }
+}
